@@ -15,6 +15,7 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
     int funcionAllanV();
+    int funcionFactorial();
 
 private slots:
     void on_botonAceptar_clicked();
