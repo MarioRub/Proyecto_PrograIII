@@ -9,6 +9,16 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->setupUi(this);
 }
 
+int MainWindow::funcionAllanV()
+{
+   return 10;
+}
+
+int MainWindow::funcionFactorial()
+{
+    return 20;
+}
+
 MainWindow::~MainWindow()
 {
     delete ui;
